@@ -1,0 +1,369 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.connect-section {
+  width:60%;
+  margin:0px auto;
+  text-align: center;
+
+}
+.connect-section-title {
+  font-size: 40px;
+  margin: 60px 0 25px;
+  font-weight: 400;
+}
+.connect-section p {
+    font-size: 19px;
+    color: #737373;
+    font-weight: 400;
+    line-height: 26px;
+}
+.email-form {
+  padding: 35px 40px 10px;
+  margin: 25px 0;
+  box-shadow: 2px 0px 30px -6px rgba(3,3,3,0.41);
+-webkit-box-shadow: 2px 0px 30px -6px rgba(3,3,3,0.41);
+-moz-box-shadow: 2px 0px 30px -6px rgba(3,3,3,0.41);
+}
+.emil-form-inner {
+  height: 50px;
+  border-radius: 0px !important;
+}
+.email-form button {
+  height: 50px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1a79d7;
+    /* border-top-left-radius: 0px !important; */
+    border-radius: 0px !important;
+}
+.email-form p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.signIn-form {
+  width:35%;
+  margin: 0px auto;
+  border:1px solid #ccc;
+  padding:30px;
+  border-radius:5px;
+}
+.google-signin {
+  border:1px solid #ccc;
+  text-align: center;
+  padding: 8px;
+  border-radius:5px;
+}
+.signUp-form {
+  width:60%;
+  margin: 0px auto;
+  border:1px solid #ccc;
+  padding:50px 80px;
+  border-radius:5px;
+}
+.or-login {
+  color: #888;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 16px 0;
+  overflow: hidden;
+  text-align: center;
+}
+/* .or-login>span::before {
+  border-bottom: 1px solid #e6e6e6;
+    content: "";
+    margin: 0 20px;
+    position: absolute;
+    top: 50%;
+    width: 200px;
+}
+.or-login>span::after {
+  border-bottom: 1px solid #e6e6e6;
+    content: "";
+    margin: 0 20px;
+    position: absolute;
+    top: 50%;
+    width: 150px;
+} */
+.para-1 {
+  margin:60px 0 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+.img-icons {
+  margin: 40px 0;
+  opacity:0.4;
+}
+.domainSearch {
+  width: 60%;
+  margin:50px 0;
+}
+.domainSearch h6 {
+  font-weight: 600;
+  color: #888;
+  font-size: 15px;
+}
+.domainSearch h5 {
+  font-size: 17px;
+}
+.domainSearch .text-receive {
+  color: #1a79d7;
+}
+.domainSearch-content {
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: 15px;
+  opacity: .5;
+  padding: 16px 20px;
+  transition: all .1s linear;
+  color:#000;
+}
+.domainSearch-content.selected {
+  opacity: 1;
+  color:#6b6b6b;
+}
+.data-domain-search img {
+  border:1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+}
+.domainSearch-content h5 {
+  font-size:16px;
+}
+.domainSearch-content p {
+  font-size:14px;
+}
+.domainSearch-content:last-child {
+  border-bottom: 0px;
+} 
+.data-domain-search {
+  border-bottom:1px solid #ddd;
+}
+.emailFinder {
+  margin: 60px 0;
+}
+.emailFinderInner {
+  padding:20px 30px; 
+}
+.emailFinder h6 {
+    color: #888;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.emailFinder h5 {
+  color: #191919;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+.emailFinder p {
+  font-size: 16px;
+  line-height: 26px;
+}
+.text-email {
+    color: #168eea;
+}
+.data-transparency {
+  width:60%;
+  background-image: url(https://hunter.io/packs/media/images/51bc4fd355e3af6cf68f.jpg) no-repeat center 60px;
+  
+  background-size: 700px;
+  
+}
+.data-transparency h3 {
+  color: #191919;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0 0 30px;
+}
+.data-transparency  p {
+  font-size:23px;
+  color: #737373;
+}
+.data-transparency button {
+  font-size: 15px;
+  height: 50px;
+  padding: 0px 25px;
+  border-radius: 5px;
+  line-height: 0px;
+  font-weight: 600;
+  margin: 20px 0 0;
+  letter-spacing: 1px;
+  }
+.footer {
+  background-color: #222;
+  color:#ccc;
+  padding: 50px 0;
+}
+.menu-footer h4 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin: 13px 0 21px ;
+  text-transform: uppercase;
+
+}
+.menu-footer p {
+  font-size: 14px;
+  transition: all .1s ease-in-out;
+  line-height: 12px;
+}
+.social-icons {
+  padding: 50px 0;
+}
+.social-icons a {
+  margin: 0 10px;
+  font-size: 19px;
+}
+.copyright p {
+  font-size: 12px;
+  color: #737373;
+}
+
+.showUserDetails {
+  text-align: center;
+  width: 60%;
+  margin:30px auto;
+  background-color: #888;
+}
+.showUserDetails p {
+  display: inline-block;
+  padding: 15px 10px 0px;
+  color: #fff;
+}
+
+.circles {
+  font-size: 13px;
+  color: #ccc;
+}
+.circles .selected {
+  color:#1a79d7;
+  border-color: #1a79d7;
+}
+.circles i {
+  border: 1px solid #1a79d7;
+}
+.circle-1 {
+  position: absolute;
+  top: 9.2rem;
+  left: 15.5rem;
+}
+.circle-1 i {
+    /* border: 1px solid #ccc; */
+    border-radius: 50px;
+    padding: 2px;
+    color:#ccc;
+  border-color: #ccc;
+}
+.circle-2 {
+  position: absolute;
+  top: 13.2rem;
+    left: 17.7rem;
+}
+.circle-2 i {
+    
+    border-radius: 50px;
+    padding: 2px;
+    color:#ccc;
+  border-color: #ccc;
+}
+.circle-3 {
+  position: absolute;
+  top: 13.2rem;
+    right:3rem;
+}
+.circle-3 i {
+  color:#ccc;
+  border-color: #ccc;
+    border-radius: 50px;
+    padding: 2px;
+}
+.circle-4 {
+  position: absolute;
+  top: 19.8rem;
+  left: 12.7rem;
+}
+.circle-4 i {
+    color:#ccc;
+  border-color: #ccc;
+    border-radius: 50px;
+    padding: 2px;
+}
+.circle-5 {
+  position: absolute;
+  top: 25.3rem;
+  right: 11.2rem;
+}
+.circle-5 i {
+    color:#ccc;
+  border-color: #ccc;
+    border-radius: 50px;
+    padding: 2px;
+}
+.circle-6 {
+  position: absolute;
+  top: 30.3rem;
+  right: 1.5rem;
+}
+.circle-6 i {
+    color:#ccc;
+  border-color: #ccc;
+    border-radius: 50px;
+    padding: 2px;
+}
+.domainSearch-content {
+  color: #a2a2a2;
+}
+.domainSearch-content .selected {
+  color:#000 !important;
+}
+
+.circleAppend {
+  color:#1a79d7 !important;
+  border-color: #1a79d7 !important;
+  /* background-color: green; */
+}
+.domainSearch-content:hover {
+  color:#000 !important;
+  cursor: pointer;
+}
